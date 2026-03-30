@@ -75,9 +75,4 @@ def _exec_logic():
         print("Save failed.")
 
 if __name__ == "__main__":
-    _p = input("Enter Access Code: ")
-    if _p == _K:
-        _exec_logic()
-    else:
-        print("Unauthorized.")
-        sys.exit(1)
+    _exec_logic()
